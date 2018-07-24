@@ -1,7 +1,9 @@
 # Master-Viper-Modules
 
-## How to install => go to directory and 
-sudo swift install.swift
+## How to install 
+* open terminal go to directory Master-Viper-Modules 
+* sudo swift install.swift
+* dont forget to create BaseClass your project
 
 ### Manual
 Go to Application folder, browse to the Xcode application icon. Right-click it and choose 'Show Package Contents'. Then browse to:
