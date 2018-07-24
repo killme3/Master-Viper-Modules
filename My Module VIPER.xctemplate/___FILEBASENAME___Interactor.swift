@@ -11,10 +11,10 @@
 import UIKit
 import Alamofire
 
-class ___VARIABLE_productName:identifier___PresenterToInteractor: ___VARIABLE_productName:identifier___PresenterToInteractorProtocol {
+class ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___PresenterToInteractorProtocol {
 
     var presenter: ___VARIABLE_productName:identifier___InteractorToPresenterProtocol?
     func fetchData() {
-            //do something with alamofire
+        //do something with alamofire
     }
 }

@@ -11,7 +11,7 @@
 import Foundation
 import UIKit
 
-class ___VARIABLE_productName:identifier___ViewToPresenter: ___VARIABLE_productName:identifier___ViewToPresenterProtocol {
+class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___ViewToPresenterProtocol {
 
     var view: ___VARIABLE_productName:identifier___PresenterToViewProtocol?
     var interactor: ___VARIABLE_productName:identifier___PresenterToInteractorProtocol?
@@ -23,7 +23,7 @@ class ___VARIABLE_productName:identifier___ViewToPresenter: ___VARIABLE_productN
 
 }
 
-extension ___VARIABLE_productName:identifier___ViewToPresenter: ___VARIABLE_productName:identifier___InteractorToPresenterProtocol{
+extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___InteractorToPresenterProtocol{
     func dataFetched() {
         view?.showData()
     }
